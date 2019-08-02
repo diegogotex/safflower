@@ -1,0 +1,28 @@
+[diegogt@hungria cartamo]$ hisat2 -p 14  -x H_annuus/Helianthus_annuus -U trimed/C1.trim.fastq -S sam/C1.sam
+1365359 reads; of these:
+  1365359 (100.00%) were unpaired; of these:
+    1213232 (88.86%) aligned 0 times
+    73009 (5.35%) aligned exactly 1 time
+    79118 (5.79%) aligned >1 times
+11.14% overall alignment rate
+[diegogt@hungria cartamo]$ hisat2 -p 14  -x H_annuus/Helianthus_annuus -U trimed/C2.trim.fastq -S sam/C2.sam
+1218666 reads; of these:
+  1218666 (100.00%) were unpaired; of these:
+    1073805 (88.11%) aligned 0 times
+    67421 (5.53%) aligned exactly 1 time
+    77440 (6.35%) aligned >1 times
+11.89% overall alignment rate
+[diegogt@hungria cartamo]$ hisat2 -p 14  -x H_annuus/Helianthus_annuus -U trimed/N1.trim.fastq -S sam/N1.sam
+1430210 reads; of these:
+  1430210 (100.00%) were unpaired; of these:
+    1190019 (83.21%) aligned 0 times
+    119473 (8.35%) aligned exactly 1 time
+    120718 (8.44%) aligned >1 times
+16.79% overall alignment rate
+[diegogt@hungria cartamo]$ hisat2 -p 14  -x H_annuus/Helianthus_annuus -U trimed/N2.trim.fastq -S sam/N2.sam
+1877348 reads; of these:
+  1877348 (100.00%) were unpaired; of these:
+    1636663 (87.18%) aligned 0 times
+    113928 (6.07%) aligned exactly 1 time
+    126757 (6.75%) aligned >1 times
+12.82% overall alignment rate
